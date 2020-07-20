@@ -1,0 +1,26 @@
+
+
+##############################################################
+
+# 32-10-USB-Proto-Stick (atmega328p @ 12MHz)
+protostick.name=32-10-USB-Proto-Stick
+
+protostick.build.mcu=atmega328p
+protostick.build.f_cpu=12000000L
+protostick.build.board=AVR_UNO
+protostick.build.core=arduino:arduino
+protostick.build.variant=32-10-USB-Proto-Stick
+
+protostick.upload.tool=avrdude
+protostick.upload.protocol=arduino
+protostick.upload.maximum_size=30720
+protostick.upload.maximum_data_size=2048
+protostick.upload.speed=115200
+
+protostick.bootloader.tool=avrdude
+protostick.bootloader.low_fuses=0xD0
+protostick.bootloader.high_fuses=0xD4
+protostick.bootloader.extended_fuses=0xFF
+protostick.bootloader.file=optiboot_atmega328p_12MHz_LedD3.hex
+protostick.bootloader.unlock_bits=0xFF
+protostick.bootloader.lock_bits=0xCF

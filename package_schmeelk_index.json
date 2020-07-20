@@ -1,0 +1,33 @@
+{
+  "packages": [
+    {
+      "name": "schmeelk",
+      "maintainer": "Karsten Schmeelk",
+      "websiteURL": "https://github.com/schmeelk-electronic",
+      "email": "",
+      "help": {"online": "https://github.com/schmeelk-electronic/arduino_boards_ide_integration/wiki"},
+
+      "platforms": [
+        {
+          "name": "Schmeelk AVR Boards (dependency: Arduino AVR Boards)",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "contributed",
+          "help": {"online": "https://github.com/schmeelk-electronic/arduino_boards_ide_integration/wiki"},
+          "url": "https://github.com/schmeelk-electronic/arduino_boards_ide_integration/raw/master/files/schmeelk-avr-1-0-0.zip",
+          "archiveFileName": "schmeelk-avr-1-0-0.zip",
+          "checksum": "SHA-256:b6254d25df1bc5c86c233e93df5feb83a6b18edaed0ee85f3821330d213c2d6a",
+          "size": "1089884",
+          "boards": [
+            {"name": "32-10-USB-Proto-Stick"}
+          ],
+          "toolsDependencies": [
+          ]
+        }
+      ],
+
+      "tools": [
+      ]
+    }
+  ]
+}
